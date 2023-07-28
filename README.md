@@ -16,3 +16,13 @@ Welcome to the Quiz Application! This project allows users to take quizzes on va
 
 4. **Admin Panel**: Admins have access to manage quizzes, add new questions, create new categories, and review user performance.
 
+## Live Demo
+
+Try out the Quiz Application [here](https://iquizmaster.000webhostapp.com/).
+
+## Test Account
+
+To explore the application, you can use the following test credentials:
+
+- **Email**: test@gmail.com
+- **Password**: test123
