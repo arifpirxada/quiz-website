@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-text {
+    position: relative;
+    top: 210px;
+    background-color: rgba(27, 17, 7, 0.502);
+    height: 150px;
+    border-radius: 5px;
+}
+
+.heading-font {
+    font-size: 24px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.explore-font {
+    font-family: ui-serif;
+}
+
+.logHeading {
+    position: relative;
+    top: -24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.46);
+    padding: 5px 12px 8px 12px;
+    border-radius: 5px;
+    left: 10%;
+}
+
+.body-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.formcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 90px;
+    width: auto;
+    background: white;
+    height: 45vh;
+}
+
+.catImage {
+    height: 212px;
+    width: 211px;
+    transition: 0.3s ease-in-out;
+}
+
+.cat-anchor {
+    height: 212px;
+    width: 211px;
+    position: absolute;
+    background-color: #fff;
+    opacity: 0;
+}
+
+
+.signcontent {
+    text-align: center;
+}
+
+.form-control {
+    outline: none;
+}
+
+.mycardtext {
+    position: relative;
+    background-color: #0c040480;
+    top: -212px;
+    height: 212px;
+    width: 210px;
+    left: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-body {
+    height: 260px;
+    margin-top: 30px;
+}
+
+.mybtn {
+    width: 60%;
+}
+
+
+@keyframes slide {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes tickSlide {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 80px;
+    }
+}
+
+
+.noOverFlow {
+    overflow-y: hidden;
+}
+
+.noOverFlowX {
+    overflow-x: hidden;
+}
+
+.mybar {
+    animation: slide 20s linear;
+}
+
+.mytimeout {
+    position: absolute;
+    margin-top: -125px;
+}
+
+.cursor-ptr {
+    cursor: pointer;
+}
+
+.options-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.qns-carousal {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -105px;
+    z-index: 3;
+}
+
+.radiobtns {
+    align-self: flex-start;
+}
+
+.tickImg {
+    height: 80px;
+    animation: tickSlide 0.5s ease-in-out;
+}
+
+.noselection {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    background-color: #060b169c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.noselSignup {
+    position: relative;
+    color: white;
+}
+
+.noselLogin {
+    width: fit-content;
+}
+
+.alertdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.catItems {
+    justify-content: center;
+    width: 100%;
+    margin-left: 0px ! important;
+}
+
+
+
+.mycarousal {
+    height: 700px;
+}
+
+.imager {
+    display: none;
+}
+
+
+.seeMorecontain {
+    justify-content: center;
+    width: 100%;
+}
+
+.seeMorebtn {
+    width: 17% !important;
+    margin-left: 2%;
+}
+
+
+
+@media(max-width:1400px) {
+    .imager {
+        display: flex;
+        width: 100vw;
+        position: relative;
+        bottom: 700px;
+    }
+
+    .logImager {
+        z-index: -1;
+        transform: rotate(180deg);
+        bottom: 976px;
+    }
+
+    .carousel-text {
+        top: 160px;
+    }
+
+
+}
+
+@media(max-width:1000px) {
+    .radioLabel {
+        width: 47vw ! important;
+    }
+
+    .radioLabel p {
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    .seeMorebtn {
+        width: 45vw ! important;
+        margin-left: 4%;
+    }
+
+}
+
+@media(max-width:600px) {
+    .logImager {
+        bottom: 575px;
+    }
+
+}
+
+@media(max-width:400px) {
+    .logImager {
+        bottom: 429px;
+    }
+
+    .signupImager {
+        bottom: 484px;
+    }
+
+}
+
+.loginItem {
+    background-color: #ffffff00;
+    border: 0px;
+    outline: none;
+    padding: 0px 4px;
+    position: relative;
+    float: left;
+    left: 11%;
+}
+
+.loghr {
+    height: 6px;
+    background-color: #000;
+    margin: -7% 0% 4% 7%;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.evenwidth {
+    margin-left: 11%;
+}
+
+.logImg {
+    position: absolute;
+    top: 51px;
+    width: 100vw;
+    z-index: -1;
+    display: none;
+}
+
+
+.logLabel {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    left: 40px;
+}
+
+.no-left {
+    left: 0px;
+    margin-left: 0px;
+}
+
+.radioLabel {
+    background: linear-gradient(#cc2b5e, #753a88);
+    width: 32vw;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.radioLabel:hover {
+    background: linear-gradient(#43cea2, #185a9d);
+}
+
+.radioLabel p {
+    margin-top: 1.8vh;
+    padding: 1px 4px;
+}
+
+.addhover {
+    color: black;
+    background-color: yellow;
+    border: 0px black solid;
+    border-radius: 5px;
+    padding: 3px 7px;
+    box-shadow: 2px 3px #888888;
+}
+
+.addhover:hover {
+    background-color: #38ff2d;
+}
+
+.adminformhead {
+    font-family: Helvetica;
+    color: #827b34;
+}
+
+/* Footer designing  */
+
+.foottext {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f3ffd5;
+}
+
+.copyfooter {
+    width: 100vw;
+    color: #fff;
+}
+
+.copy-contain {
+    background-color: rebeccapurple;
+}
+
+.ansmodalcolor {
+    background-color: #efffff;
+}
+
+
+.bodycolor {
+    background: linear-gradient(269deg, #9db835, #6076ae);
+}
